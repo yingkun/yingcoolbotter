@@ -100,7 +100,7 @@ function sendTextMessage(recipientId, messageText) {
 function callSendAPI(messageData) {
   request({
     uri: 'https://graph.facebook.com/v2.6/me/messages',
-    qs: { access_token: 'Api ของคุณเลย' },
+    qs: { access_token: 'EAAECGi6qrXkBAF38tYtlemXtwx9uHCAZAhsB74J1DZCHkUNWtp7osVDMQfm9PX3Ps0kFN2yoaRhvz0cjftENvUk38loTz4Srft1mX3ZBkzoxxFJOXqtIZBMnDd9z5fJLVcSfAIqfkxJ7YURqcZA0m1txzaHU3ea27qSRvfRZAl5AZDZD' },
     method: 'POST',
     json: messageData
 
