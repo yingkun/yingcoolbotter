@@ -1,2 +1,1 @@
-<?php
-echo "Hello LINE BOT";
+alert("aaa");
