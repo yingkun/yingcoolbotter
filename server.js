@@ -63,7 +63,7 @@ function receivedMessage(event) {
 
   if (messageText) {
     if (messageText === 'hello') {
-      sendTextMessage(senderID, 'ถ้าคุณพิมพ์ว่า hello ผมจะพูดสวัสดีครับ');
+      sendTextMessage(senderID, 'TESTTEST');
     }
 
     // If we receive a text message, check to see if it matches a keyword
